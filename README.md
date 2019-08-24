@@ -1,8 +1,9 @@
 # ras_py_InfraredRemoteControl
 Infrared Remote Control by python on the raspberry pie
 
-使い方
+菴ｿ縺�譁ｹ
 
-参考
-赤外線学習リモコン基板 ADRSIR 関連スクリプト
+
+蜿り�
+襍､螟也ｷ壼ｭｦ鄙偵Μ繝｢繧ｳ繝ｳ蝓ｺ譚ｿ ADRSIR 髢｢騾｣繧ｹ繧ｯ繝ｪ繝励ヨ
 https://github.com/you0708/adrsir
