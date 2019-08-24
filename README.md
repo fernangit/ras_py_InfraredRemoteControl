@@ -1,5 +1,6 @@
 # 赤外線学習リモコン基板 ADRSIR 関連スクリプト
 https://github.com/you0708/adrsir より
+
 株式会社ビット・トレード・ワンが販売する赤外線学習リモコン基板 ADRSIR (http://bit-trade-one.co.jp/product/module/adrsir/) を使って赤外線データを扱うための Python スクリプト。
 
 * adrsir.py
@@ -60,10 +61,13 @@ $ python ir_control.py restore tv
 ### 保存した赤外線データの連続送信
 ```
 $ python ir_send_control.py tv/ch0.data tv/ch1.data
+```
 
 ### モジュールからの呼び出し
+```
 import ir_send_control
 ir_send_control.send('tv/ch0.data', 1)
+```
 
 ## 参考情報
 * 本日も元気に赤外線照射中の皆様へ、ソフトウェアアップデートのお知らせです！
