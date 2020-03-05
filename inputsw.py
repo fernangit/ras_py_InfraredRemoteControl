@@ -51,8 +51,6 @@ while True:
     time.sleep(3.0)
     ir_send_control.send('tv/ch9.data', 1)
     time.sleep(3.0)
-    ir_send_control.send('tv/ch10.data', 1)
-    time.sleep(3.0)
 #####################
 
   time.sleep(0.1)
