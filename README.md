@@ -69,6 +69,18 @@ import ir_send_control
 ir_send_control.send('tv/ch0.data', 1)
 ```
 
+### シェルスクリプトからの呼び出し  
+prj1.sh
+```
+#!/bin/sh
+python3 ir_control.py send prj1/ch0.data
+python3 ir_control.py send prj1/ch1.data
+```
+実行するときは  
+```
+sh prj1.sh
+```
+
 ## 参考情報
 * 本日も元気に赤外線照射中の皆様へ、ソフトウェアアップデートのお知らせです！
   * http://bit-trade-one.co.jp/blog/20180219/
