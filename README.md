@@ -73,8 +73,8 @@ ir_send_control.send('tv/ch0.data', 1)
 prj1.sh
 ```
 #!/bin/sh
-python3 ir_control.py send prj1/ch0.data
-python3 ir_control.py send prj1/ch1.data
+python3 ir_control.py send tv/ch0.data
+python3 ir_control.py send tv/ch1.data
 ```
 実行するときは  
 ```
